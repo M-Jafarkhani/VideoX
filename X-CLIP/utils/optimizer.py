@@ -1,4 +1,3 @@
-import copy
 import torch.optim as optim
 from timm.scheduler.cosine_lr import CosineLRScheduler
 import torch.distributed as dist

@@ -1,4 +1,3 @@
-import numpy
 import torch.distributed as dist
 import torch
 import clip

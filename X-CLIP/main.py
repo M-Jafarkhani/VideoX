@@ -9,7 +9,7 @@ import shutil
 from pathlib import Path
 from utils.config import get_config
 from utils.optimizer import build_optimizer, build_scheduler
-from utils.tools import AverageMeter, reduce_tensor, epoch_saving, load_checkpoint, generate_text, auto_resume_helper
+from utils.tools import AverageMeter, epoch_saving, load_checkpoint, generate_text, auto_resume_helper
 from datasets.build import build_dataloader
 from utils.logger import create_logger
 import time

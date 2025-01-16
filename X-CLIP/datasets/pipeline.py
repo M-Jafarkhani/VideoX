@@ -1,16 +1,10 @@
 import io
 import os
-import os.path as osp
-import shutil
 import warnings
 from collections.abc import Sequence
 from mmcv.utils import Registry, build_from_cfg
-from torch.utils.data import Dataset
-import copy
 import os.path as osp
 import warnings
-from abc import ABCMeta, abstractmethod
-from collections import OrderedDict, defaultdict
 import os.path as osp
 import mmcv
 import numpy as np

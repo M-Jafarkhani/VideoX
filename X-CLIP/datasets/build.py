@@ -1,29 +1,21 @@
-from logging import Logger
 from torch.utils.data import DataLoader
 import torch.distributed as dist
 import torch
 import numpy as np
 from functools import partial
-import random
 
-import io
-import os
 import os.path as osp
-import shutil
-import warnings
 from collections.abc import Mapping, Sequence
-from mmcv.utils import Registry, build_from_cfg
+from mmcv.utils import Registry
 from torch.utils.data import Dataset
 import copy
 import os.path as osp
-import warnings
 from abc import ABCMeta, abstractmethod
-from collections import OrderedDict, defaultdict
+from collections import defaultdict
 import os.path as osp
 import mmcv
 import numpy as np
 import torch
-import tarfile
 from .pipeline import *
 from torch.utils.data import DataLoader
 from torch.utils.data.dataloader import default_collate
